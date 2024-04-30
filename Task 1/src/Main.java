@@ -9,8 +9,8 @@ public class Main {
             String name = inputBookName();
             int pageCount = inputPageCount();
             double bookPrice = inputBookPrice();
-//            addBook(name);
-//            addBook(name, pageCount);
+           addBook(name);
+           addBook(name, pageCount);
             addBook(name, pageCount, bookPrice);
             printInfo();
         }
